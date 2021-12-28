@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+body{
+    font-family: 'Cairo', sans-serif;
+    font-weight: 700 !important;
+}
+.nav-link{
+    color: rgb(255, 255, 255) !important;
+}
+.nav-link:hover, .dropdown-item:hover {
+    color: red !important;
+}
+.navbarStyle{
+ background: rgba(82, 82, 82, 0.747);
+}
+
+.nav-link .loginButton{
+    height: inherit;
+    border-radius: 50px;  
+}
+
+.nav-link .SearchButton{
+    height: inherit;
+    display: flex;
+    border-radius: 50px;
+    padding-left: 120px;
+   
+}
+.subscribeButton{
+background:linear-gradient(
+301deg, rgb(249, 159, 0), rgb(255, 0, 85));
+border-radius:50px;
+margin: 5px;
+width:170px;
+}
+
+.logo-image{
+    height:100%;
+    width:100px;
+}
+
