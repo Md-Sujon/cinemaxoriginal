@@ -61,19 +61,6 @@ const Header = () => {
     </Carousel.Caption>
   </Carousel.Item>
 
-  <Carousel.Item>
-    <img
-      className="d-block w-100"
-      src="https://snagfilms-a.akamaihd.net/dd078ff5-b16e-45e4-9723-501b56b9df0a/images/2021/08/12/1628770036394_unoloukikposter3840x10804thepcopy_32x9Images.jpg?impolicy=resize&w=1536&h=432"
-      alt="Third slide"
-    />
-    <Carousel.Caption>
-      <h3>Five slide label</h3>
-      <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
-      <Button className="WatchButton"><h5>Watch Now</h5></Button>
-    </Carousel.Caption>
-  </Carousel.Item>
-
 
 {/* <Carousel.Item className="carousel-button">
 

@@ -1,6 +1,6 @@
-import React, { useState } from 'react';
+import React from 'react';
 import  './Navbar.css';
-import { Button, Container, Form, FormControl, Image, Nav, Navbar, NavDropdown } from 'react-bootstrap';
+import { Button, Container,Image, Nav, Navbar, NavDropdown } from 'react-bootstrap';
 import image from '../../image/cinemax.jpg'
 // import { Modal } from 'bootstrap';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'

@@ -5,10 +5,11 @@ import HeaderNav from './component/Navbar/Navbar';
 
 function App() {
   return (
-    <div className="App">
+    <div className="app">
       
         <HeaderNav></HeaderNav>
         <Home></Home>
+        
       
     </div>
   );
