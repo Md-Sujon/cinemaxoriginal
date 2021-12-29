@@ -1,5 +1,5 @@
 import React from 'react';
-import { Button, Carousel } from 'react-bootstrap';
+import {Button,Carousel} from 'react-bootstrap';
 import './Header.css';
 
 const Header = () => {
@@ -7,15 +7,16 @@ const Header = () => {
      
     <Carousel className="carousel">
   <Carousel.Item interval={1000} >
-    <img
+   
+   <img
       className="d-block img"
       src="https://snagfilms-a.akamaihd.net/dd078ff5-b16e-45e4-9723-501b56b9df0a/images/2021/08/12/1628770036394_unoloukikposter3840x10804thepcopy_32x9Images.jpg?impolicy=resize&w=1536&h=432"
       alt="First slide"
     />
-    <Carousel.Caption className="custom-foot">
+  
+    <Carousel.Caption id="custom-foot">
       <h3>Unoloukik</h3>
       <h6>Psychological Drama | 5 Episodes</h6>
-
       <Button className="WatchButton"><h5>Watch Now</h5></Button>
     </Carousel.Caption>
   </Carousel.Item>

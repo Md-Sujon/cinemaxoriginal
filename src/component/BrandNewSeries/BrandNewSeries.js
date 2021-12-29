@@ -21,7 +21,7 @@ const BrandNewSeries = () => {
   return (
     <div>
       <div>
-        <h2>BRAND NEW SERIES</h2>
+        <h2 className="container">BRAND NEW SERIES</h2>
       </div>
       <div>
         <Carousel breakPoints={breakPoints}>

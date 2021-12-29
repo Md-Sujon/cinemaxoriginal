@@ -3,6 +3,10 @@ body{
     font-family: 'Cairo', sans-serif;
     font-weight: 700 !important;
 }
+.Navbar{
+    position: fixed;
+}
+
 .nav-link{
     color: rgb(255, 255, 255) !important;
 }
@@ -10,7 +14,8 @@ body{
     color: red !important;
 }
 .navbarStyle{
- background: rgba(82, 82, 82, 0.747);
+    position: relative;
+ background: rgba(34, 34, 34, 0.562);
 }
 
 .nav-link .loginButton{
