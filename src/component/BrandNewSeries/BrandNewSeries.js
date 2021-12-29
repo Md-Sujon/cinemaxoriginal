@@ -23,11 +23,12 @@ const BrandNewSeries = () => {
       <div>
         <h2>BRAND NEW SERIES</h2>
       </div>
-      <div className="Carousel">
+      <div>
         <Carousel breakPoints={breakPoints}>
           {dataLoad.map((item) => (
-            <div className="box" key={item.id}>
-              <img className="img-responsive" src={item.image} alt="" />
+            <div className="boxNewSeries" key={item.id}>
+              
+              <img className="img-responsive" src={item.image} alt="" ></img>
             </div>
           ))}
         </Carousel>
